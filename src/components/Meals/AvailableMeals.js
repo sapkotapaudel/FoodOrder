@@ -11,7 +11,7 @@ import MealItem from './MealsItem/MealItem';
 
     useEffect(()=>{
       const  fectchData = async()=> {
-        const response = await fetch("https://movies-68d6a-default-rtdb.firebaseio.com/movies.json")
+        const response = await fetch("")
 
         if(!response.ok){
           throw new Error('Something went wrong!')
