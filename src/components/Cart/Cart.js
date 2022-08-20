@@ -38,7 +38,7 @@ const Cart = (props) => {
 
   const confirmHandler = async (userData) => {
     setIsSubmitting(true)
-    const response = await fetch('https://movies-68d6a-default-rtdb.firebaseio.com/orders.json',{
+    const response = await fetch('',{
       method:'POST',
       body:JSON.stringify({user:userData,
       orderedItems:cartCtx.items})
